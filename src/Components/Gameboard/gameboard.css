@@ -1,0 +1,8 @@
+.game-area {
+    margin: 20px;
+    padding: 20px;
+}
+
+.game-area > .flex-and-center:first-of-type > .tile {
+    border-top: 1px solid;
+}

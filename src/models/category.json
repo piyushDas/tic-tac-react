@@ -1,0 +1,122 @@
+[
+    {
+      "id": 0,
+      "category": "Arts & Photography"
+    },
+    {
+      "id": 1,
+      "category": "Biographies & Memoirs"
+    },
+    {
+      "id": 2,
+      "category": "Business & Money"
+    },
+    {
+      "id": 3,
+      "category": "Calendars"
+    },
+    {
+      "id": 4,
+      "category": "Children's Books"
+    },
+    {
+      "id": 5,
+      "category": "Comics & Graphic Novels"
+    },
+    {
+      "id": 6,
+      "category": "Computers & Technology"
+    },
+    {
+      "id": 7,
+      "category": "Cookbooks, Food & Wine"
+    },
+    {
+      "id": 8,
+      "category": "Crafts, Hobbies & Home"
+    },
+    {
+      "id": 9,
+      "category": "Christian Books & Bibles"
+    },
+    {
+      "id": 10,
+      "category": "Engineering & Transportation"
+    },
+    {
+      "id": 11,
+      "category": "Health, Fitness & Dieting"
+    },
+    {
+      "id": 12,
+      "category": "History"
+    },
+    {
+      "id": 13,
+      "category": "Humor & Entertainment"
+    },
+    {
+      "id": 14,
+      "category": "Law"
+    },
+    {
+      "id": 15,
+      "category": "Literature & Fiction"
+    },
+    {
+      "id": 16,
+      "category": "Medical Books"
+    },
+    {
+      "id": 17,
+      "category": "Mystery, Thriller & Suspense"
+    },
+    {
+      "id": 18,
+      "category": "Parenting & Relationships"
+    },
+    {
+      "id": 19,
+      "category": "Politics & Social Sciences"
+    },
+    {
+      "id": 20,
+      "category": "Reference"
+    },
+    {
+      "id": 21,
+      "category": "Religion & Spirituality"
+    },
+    {
+      "id": 22,
+      "category": "Romance"
+    },
+    {
+      "id": 23,
+      "category": "Science & Math"
+    },
+    {
+      "id": 24,
+      "category": "Science Fiction & Fantasy"
+    },
+    {
+      "id": 25,
+      "category": "Self-Help"
+    },
+    {
+      "id": 26,
+      "category": "Sports & Outdoors"
+    },
+    {
+      "id": 27,
+      "category": "Teen & Young Adult"
+    },
+    {
+      "id": 28,
+      "category": "Test Preparation"
+    },
+    {
+      "id": 29,
+      "category": "Travel"
+    }
+  ]

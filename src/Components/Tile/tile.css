@@ -1,0 +1,10 @@
+.tile {
+    height: 80px;
+    width: 80px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.tile:first-of-type {
+    border-left: 1px solid;
+}
