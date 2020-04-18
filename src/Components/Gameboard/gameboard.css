@@ -1,8 +1,9 @@
 .game-area {
-    margin: 20px;
     padding: 20px;
-}
-
-.game-area > .flex-and-center:first-of-type > .tile {
-    border-top: 1px solid;
+    width: 90%;
+    margin: auto;
+    max-width: 450px;
+    background: #fff;
+    border-bottom: 1px solid #36C;
+    position: relative;
 }

@@ -18,7 +18,8 @@ const GameStartModal = () => {
         if (playerOneName &&
             playerTwoName &&
             grid &&
-            typeof Number.parseInt(grid) === 'number') {
+            typeof Number.parseInt(grid) === 'number' &&
+            Number.parseInt(grid) >= 3) {
             updatePlayerOne(playerOneName)
             updatePlayerTwo(playerTwoName)
             updateShowModal(false)
@@ -28,7 +29,7 @@ const GameStartModal = () => {
 
     return (
         <>
-            <div className="flex-and-center">
+            <div className="flex-and-center flex-wrap">
                 <div className="inputs">
                     <label htmlFor=""> Player 1:  </label>
                     <input type="text" value={playerOneName} onChange={e => updatePlayerOneName(e.currentTarget.value)} />
@@ -44,8 +45,8 @@ const GameStartModal = () => {
                     <input type="text" value={grid} onChange={e => updateGrid(e.currentTarget.value)} />
                 </div>
             </div>
-            <div>
-                <button className="button button-primary" onClick={setPlayerName}>
+            <div className="flex-and-center">
+                <button className="button primary-button" onClick={setPlayerName}>
                     Play
                 </button>
             </div>

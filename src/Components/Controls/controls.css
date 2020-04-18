@@ -2,7 +2,7 @@
     border: none;
     padding: 8px;
     margin: 12px 4px;
-    width: 100px;
+    min-width: 100px;
     font-size: 14px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
@@ -17,4 +17,18 @@
 .secondary-button{
     background: #f5f5f5;
     color: #333;
+}
+
+.restart {
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 3px;
+}
+
+.controls {
+    width: 90%;
+    margin: auto;
+    max-width: 450px;
+    background: #fff;
+    padding: 16px;
 }

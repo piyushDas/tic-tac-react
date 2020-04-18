@@ -40,7 +40,7 @@
   width: 100%;
   position: absolute;
   top: 0;
-  background: #ffffffbd;
+  background: rgba(255, 255, 255, 0.9);
   transition: all 1s linear;
 }
 
@@ -58,13 +58,14 @@
 
 .overlay > div {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  color: #607D8B;
+  color: #3F51B5;
   text-align: center;
   padding: 12px;
-  font-size: 16px;
+  font-size: 32px;
   height: 100%;
+  text-shadow: 0px 0px 2px #03A9F4;
 }
 
 .overlay.open > div {
@@ -74,8 +75,10 @@
 .modal-header {
   display: flex;
   justify-content: center;
-  padding: 16px 20px 0 20px;
-  font-size: 20px;
+  padding: 16px 20px 12px 20px;
+  font-size: 24px;
+  color: #36C;
+  border-bottom: 1px solid #afcaff;
 }
 
 .modal-content {

@@ -25,6 +25,14 @@ export const AppState = ({ children }) => {
     setGameOver(false)
   }
 
+  const restartGame = () => {
+    setPlayerUp(1)
+    updatePlayerTwo(playerOne)
+    updatePlayerOne(playerTwo)
+    setGameOver(false)
+    startGame(gridSize)
+  }
+
   const [tileArr, updateTileArr] = useState([])
   const [gameOver, setGameOver] = useState(false)
 
@@ -60,7 +68,8 @@ export const AppState = ({ children }) => {
         updateTileArr,
         startGame,
         gameOver,
-        setGameOver
+        setGameOver,
+        restartGame
       }}
     >
       {children}

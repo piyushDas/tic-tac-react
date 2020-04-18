@@ -76,6 +76,11 @@ const Gameboard = () => {
     return (
         <>
             <div className="game-area">
+                <div className={`overlay ${gameOver ? '': 'open'}`}>
+                    <div>
+                        {winner} has won the game
+                    </div>
+                </div>
                 {
                     tileArr.map((tileRow, row) => (
                     <div className="flex-and-center" key={`index_${row}`}>
@@ -95,11 +100,6 @@ const Gameboard = () => {
                 }
             </div>
             <Controls />
-            {
-                gameOver && <>
-                    {winner} has won
-                </>
-            }
         </>
     )
 }

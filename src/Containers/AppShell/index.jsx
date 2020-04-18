@@ -3,6 +3,7 @@ import Gameboard from '../../Components/Gameboard'
 import GameStartModal from '../../Components/GameStartModal'
 import TurnIndicator from '../../Components/TurnIndicator'
 import Modal from '../../Components/Modal'
+import Header from '../../Components/Header'
 import { AppContext } from '../../context'
 
 const AppShell = () => {
@@ -23,6 +24,7 @@ const AppShell = () => {
 
     return (
         <>  
+            <Header />
             <TurnIndicator playerOne={playerOne} playerTwo={playerTwo} playerNext={playerUp} />
             <Gameboard />
             {showModal && <Modal

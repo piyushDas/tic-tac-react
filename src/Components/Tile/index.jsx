@@ -23,7 +23,10 @@ const Tile = ({ tile, row, col, updateTileValue }) => {
     const { value } = tile
 
     return (
-        <div className="tile flex-and-center" onClick={makeMove}>
+        <div
+            className={`tile flex-and-center ${value === 'X' ? 'p1-marker' : ''} ${value === 'O' ? 'p2-marker' : ''}`}
+            onClick={makeMove}
+        >
             {value}
         </div>
     )

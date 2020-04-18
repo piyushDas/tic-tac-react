@@ -1,0 +1,22 @@
+.player-names {
+    width: 100%;
+    text-align: center;
+    color: #607D8B;
+    padding-top: 4px;
+}
+
+.next-move {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: 12px;
+    font-size: 22px;
+    color: #36C;
+}
+
+.display {
+    max-width: 450px;
+    margin: auto;
+    padding: 8px;
+    border-bottom: 1px solid #36C;
+}

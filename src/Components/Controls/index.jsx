@@ -5,13 +5,15 @@ import { AppContext } from '../../context'
 const Controls = () => {
     
   const  {
-      resetGame
+      resetGame,
+      restartGame
     } = useContext(AppContext)
 
   return (
     <>
-      <section className="flex-and-center">
-        <button className="button primary-button" onClick={resetGame}>Restart</button>
+      <section className="flex-and-center controls">
+        <button className="button primary-button restart" onClick={restartGame}>Restart</button>
+        <button className="button primary-button restart" onClick={resetGame}>New Game</button>
       </section>
     </>
   )
